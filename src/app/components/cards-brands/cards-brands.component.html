@@ -1,0 +1,10 @@
+<div class="row">
+    <div *ngFor="let marca of marcas" class="col-md-2 mb-4">
+        <mat-card class="card-container shadow-none p-3 mb-5 border rounded">
+            <img mat-card-image [src]="marca.imagen" alt="{{ marca.nombre }}" class="card-img">
+            <mat-card-content>
+                <h3 class="card-title fs-6">{{ marca.nombre }}</h3>
+            </mat-card-content>
+        </mat-card>
+    </div>
+</div>

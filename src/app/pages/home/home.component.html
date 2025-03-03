@@ -1,26 +1,28 @@
 <body>
     <app-navbar></app-navbar>
 
+
+
     <div class="hero-section">
-        <img src="/home/slider1.jpg" alt="Fondo" class="hero-image">
+        <!-- <img src="/home/slider1.jpg" alt="Fondo" class="hero-image"> -->
+        <img src="/home/slider1.jpg" class="img-fluid hero-image" alt="Responsive image">
         <div class="hero-overlay">
             <h1>Todos los Vehículos</h1>
-            <div class="div">
+            <div class="container m-4">
                 <app-icons-cars></app-icons-cars>
             </div>
         </div>
     </div>
 
-    <div class="div">
+    <div class="container-fluid rounded-top bg-white">
+        <div class="container p-4 ">
+            <span class="fs-2 fw-bold">Explora nuestras marcas premium</span>
 
-        Explora nuestras marcas premium
-
-        <div class="div">
-
+            <div class="container py-4">
+                <app-cards-brands></app-cards-brands>
+            </div>
         </div>
 
-        <div class="cards-section">
-
-        </div>
     </div>
+
 </body>

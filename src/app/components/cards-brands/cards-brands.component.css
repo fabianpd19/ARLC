@@ -1,0 +1,15 @@
+.card-container {
+    background-color: white;
+    border-radius: 10px;
+}
+
+.card-img {
+    height: 100px;
+    object-fit: cover;
+}
+
+.card-title {
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: 20px;
+}
