@@ -1,0 +1,30 @@
+.example-spacer {
+    flex: 1 1 auto;
+}
+
+.nav-bar {
+    background: transparent !important;
+    /* Fondo transparente */
+    color: white !important;
+    /* Letras blancas */
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    /* Centrar horizontalmente */
+    width: 80%;
+    /* Ajusta el ancho para que no esté tan pegado a los lados */
+    max-width: 1200px;
+    /* Evita que se expanda demasiado en pantallas grandes */
+    z-index: 10;
+}
+
+.nav-bar button {
+    color: white !important;
+    /* Asegura que los botones tengan texto en blanco */
+}
+
+.nav-bar mat-icon {
+    color: white !important;
+    /* Icono en blanco */
+}

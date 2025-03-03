@@ -1,0 +1,27 @@
+/* Sección principal con la imagen */
+.hero-section {
+    position: relative;
+    width: 100%;
+    height: 500px;
+    /* Ajusta la altura según sea necesario */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Imagen */
+.hero-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Capa semitransparente con texto encima de la imagen */
+.hero-overlay {
+    position: absolute;
+    text-align: center;
+    color: white;
+    /* Fondo oscuro semi-transparente */
+    padding: 20px;
+    border-radius: 30px;
+}

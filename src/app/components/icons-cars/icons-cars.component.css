@@ -1,0 +1,51 @@
+section {
+    display: table;
+}
+
+.example-label {
+    display: table-cell;
+    font-size: 11px;
+    margin-left: 8px;
+    min-width: 120px;
+}
+
+.example-button-row {
+    display: table-cell;
+    max-width: 800px;
+}
+
+.example-button-row .mat-mdc-button-base {
+    margin: 8px 8px 8px 0;
+}
+
+.example-flex-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.example-button-container {
+    display: flex;
+    justify-content: center;
+    width: 140px;
+}
+
+.custom {
+    background-color: rgba(240, 248, 255, 0.252) !important;
+    color: white !important;
+}
+
+.custom-icon {
+    width: 24px;
+    /* Tamaño de los iconos por defecto en Material */
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.svg-icon {
+    width: 100%;
+    height: 100%;
+    /* Hace el SVG blanco si es necesario */
+}
