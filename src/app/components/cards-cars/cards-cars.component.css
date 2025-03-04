@@ -1,0 +1,26 @@
+.card {
+    border-radius: 12px;
+    transition: transform 0.2s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.03);
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+.icons-stats {
+    font-size: 10px;
+}
+
+.custom-icon {
+    width: 24px;
+    /* Tamaño de los iconos por defecto en Material */
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

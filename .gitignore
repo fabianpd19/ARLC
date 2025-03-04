@@ -40,3 +40,19 @@ testem.log
 # System files
 .DS_Store
 Thumbs.db
+
+# Backend (Node.js)
+backend/node_modules/
+backend/package-lock.json
+backend/.env
+
+# Logs y caché
+backend/npm-debug.log*
+backend/yarn-debug.log*
+backend/yarn-error.log*
+backend/pnpm-debug.log*
+
+# Otros archivos sensibles
+backend/.vscode/
+backend/.DS_Store
+backend/.coverage/

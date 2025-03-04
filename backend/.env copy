@@ -1,0 +1,5 @@
+DB_USER=postgres
+DB_HOST=localhost
+DB_NAME=arlc_database
+DB_PASS=
+DB_PORT=5432
