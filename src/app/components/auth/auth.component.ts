@@ -23,14 +23,14 @@ export class AuthComponent {
     password: ''
   };
 
-  // Registration form - Step 1
+  // Registro form - Parte 1
   registrationStep1 = {
     email: '',
     password: '',
     confirmPassword: ''
   };
 
-  // Registration form - Step 2
+  // Registro form - Parte 2
   registrationStep2 = {
     email: '',
     fullName: '',
@@ -53,30 +53,34 @@ export class AuthComponent {
 
   onLogin() {
     if (!this.loginData.email || !this.loginData.password) {
-      this.errorMessage = 'Please fill in all fields';
+      this.errorMessage = 'Por favor, completa todos los campos';
       return;
     }
 
     this.authService.login(this.loginData.email, this.loginData.password)
       .subscribe({
         next: (response) => {
-          this.successMessage = 'Login successful!';
-          this.router.navigate(['/']); // Navigate to home page
+          this.successMessage = 'Login exitoso!';
+          this.router.navigate(['/']); // Nav
+          // Almacenar el correo electrónico en localStorage
+          localStorage.setItem('userEmail', response.user.email);
+          // Refrescar la página
+          window.location.reload();
         },
         error: (error) => {
-          this.errorMessage = error.error.message || 'Login failed';
+          this.errorMessage = error.error.message || 'Login fallido';
         }
       });
   }
 
   onRegisterStep1() {
     if (!this.registrationStep1.email || !this.registrationStep1.password || !this.registrationStep1.confirmPassword) {
-      this.errorMessage = 'Please fill in all fields';
+      this.errorMessage = 'Por favor, completa todos los campos';
       return;
     }
 
     if (this.registrationStep1.password !== this.registrationStep1.confirmPassword) {
-      this.errorMessage = 'Passwords do not match';
+      this.errorMessage = 'Las contraseñas no coinciden';
       return;
     }
 
@@ -85,11 +89,11 @@ export class AuthComponent {
         next: (response) => {
           this.isStep1Complete = true;
           this.registrationStep2.email = this.registrationStep1.email;
-          this.successMessage = 'Step 1 completed successfully!';
+          this.successMessage = 'Registro exitoso!';
           this.errorMessage = '';
         },
         error: (error) => {
-          this.errorMessage = error.error.message || 'Registration failed';
+          this.errorMessage = error.error.message || 'Registro fallido';
         }
       });
   }
@@ -97,14 +101,14 @@ export class AuthComponent {
   onCompleteRegistration() {
     if (!this.registrationStep2.fullName || !this.registrationStep2.gender || 
         !this.registrationStep2.phoneNumber || !this.registrationStep2.birthDate) {
-      this.errorMessage = 'Please fill in all fields';
+      this.errorMessage = 'Por favor, completa todos los campos';
       return;
     }
 
     this.authService.completeRegistration(this.registrationStep2)
       .subscribe({
         next: (response) => {
-          this.successMessage = 'Registration completed successfully!';
+          this.successMessage = 'Registro exitoso!';
           this.errorMessage = '';
           setTimeout(() => {
             this.isLoginMode = true;
@@ -112,7 +116,7 @@ export class AuthComponent {
           }, 2000);
         },
         error: (error) => {
-          this.errorMessage = error.error.message || 'Registration completion failed';
+          this.errorMessage = error.error.message || 'Registro fallido';
         }
       });
   }

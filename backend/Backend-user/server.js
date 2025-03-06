@@ -23,7 +23,7 @@ const pool = new Pool({
 });
 
 // JWT Secret
-const JWT_SECRET = process.env.JWT_SECRET || 'your_very_secret_key';
+const JWT_SECRET = process.env.JWT_SECRET || 'edison2300';
 
 // Middleware to verify JWT
 const authenticateToken = (req, res, next) => {
@@ -51,7 +51,7 @@ app.post('/api/auth/register/step1', async (req, res) => {
     );
 
     if (userCheck.rows.length > 0) {
-      return res.status(400).json({ message: 'User already exists' });
+      return res.status(400).json({ message: 'El correo electrónico ya existe' });
     }
 
     // Hash password
@@ -65,12 +65,12 @@ app.post('/api/auth/register/step1', async (req, res) => {
     );
 
     res.status(201).json({ 
-      message: 'Registration first step completed',
+      message: 'Registro exitoso',
       userId: result.rows[0].id 
     });
   } catch (error) {
     console.error(error);
-    res.status(500).json({ message: 'Server error during registration' });
+    res.status(500).json({ message: 'Error del servidor' });
   }
 });
 
@@ -108,10 +108,10 @@ app.post('/api/auth/register/complete', async (req, res) => {
       return res.status(404).json({ message: 'User not found' });
     }
 
-    res.status(200).json({ message: 'Registration completed successfully' });
+    res.status(200).json({ message: 'Registro completado exitosamente' });
   } catch (error) {
     console.error(error);
-    res.status(500).json({ message: 'Server error completing registration' });
+    res.status(500).json({ message: 'Error del servidor' });
   }
 });
 
@@ -127,7 +127,7 @@ app.post('/api/auth/login', async (req, res) => {
     );
 
     if (userResult.rows.length === 0) {
-      return res.status(400).json({ message: 'Invalid credentials' });
+      return res.status(400).json({ message: 'Credenciales inválidas' });
     }
 
     const user = userResult.rows[0];
@@ -136,7 +136,7 @@ app.post('/api/auth/login', async (req, res) => {
     const isMatch = await bcrypt.compare(password, user.password);
 
     if (!isMatch) {
-      return res.status(400).json({ message: 'Invalid credentials' });
+      return res.status(400).json({ message: 'Credenciales inválidas' });
     }
 
     // Create JWT
@@ -156,7 +156,7 @@ app.post('/api/auth/login', async (req, res) => {
     });
   } catch (error) {
     console.error(error);
-    res.status(500).json({ message: 'Server error during login' });
+    res.status(500).json({ message: 'Error del servidor' });
   }
 });
 
@@ -176,16 +176,16 @@ const initializeDatabase = async () => {
         created_at TIMESTAMP WITH TIME ZONE DEFAULT CURRENT_TIMESTAMP
       )
     `);
-    console.log('Database initialized successfully');
+    console.log('Base de datos inicializada exitosamente');
   } catch (error) {
-    console.error('Database initialization error', error);
+    console.error('Error de base de datos', error);
   }
 };
 
 // Start Server
 app.listen(PORT, async () => {
   await initializeDatabase();
-  console.log(`Server running on port ${PORT}`);
+  console.log(`Servidor corriendo en http://localhost:${PORT}`);
 });
 
 module.exports = app;
