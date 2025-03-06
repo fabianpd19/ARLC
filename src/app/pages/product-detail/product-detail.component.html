@@ -1,17 +1,69 @@
 <div *ngIf="car">
-    <div class="car-detail">
-        <h1>{{ car.brand }} - {{ car.model }}</h1>
-        <img [src]="car.imageUrl" alt="{{ car.brand }} {{ car.model }}" class="car-image">
-
-        <div class="car-info">
-            <p><strong>Marca:</strong> {{ car.brand }}</p>
-            <p><strong>Modelo:</strong> {{ car.model }}</p>
-            <p><strong>Año:</strong> {{ car.year }}</p>
-            <p><strong>Precio:</strong> ${{ car.price | number }}</p>
-            <p><strong>Kilometraje:</strong> {{ car.kilometers }} km</p>
-            <p><strong>Tipo de combustible:</strong> {{ car.fueltype }}</p>
-            <p><strong>Transmisión:</strong> {{ car.transmission }}</p>
-            <p><strong>Descripción:</strong> {{ car.description }}</p>
+    <div class="container">
+        <div class="row m-0">
+            <div class="col-lg-7 pb-5 pe-lg-5">
+                <div class="row">
+                    <div class="col-12 p-5">
+                        <img [src]="car.imageurl" alt="{{ car.brand }} {{ car.model }}">
+                    </div>
+                    <div class="row m-0 bg-light">
+                        <div class="col-md-4 col-6 ps-30 pe-0 my-4">
+                            <p class="text-muted">Kilometraje</p>
+                            <p class="h5">{{ car.kilometers }} km</p>
+                        </div>
+                        <div class="col-md-4 col-6 ps-30 my-4">
+                            <p class="text-muted">Transmisión</p>
+                            <p class="h5 m-0">{{ car.transmission }}</p>
+                        </div>
+                        <div class="col-md-4 col-6 ps-30 my-4">
+                            <p class="text-muted">Tipo de combustible</p>
+                            <p class="h5 m-0">{{ car.fueltype }}</p>
+                        </div>
+                        <div class="col-md-4 col-6 ps-30 my-4">
+                            <p class="text-muted">Año</p>
+                            <p class="h5 m-0">{{ car.year }}</p>
+                        </div>
+                        <div class="col-md-4 col-6 ps-30 my-4">
+                            <p class="text-muted">Marca</p>
+                            <p class="h5 m-0">{{ car.brand }}</p>
+                        </div>
+                        <div class="col-md-4 col-6 ps-30 my-4">
+                            <p class="text-muted">Modelo</p>
+                            <p class="h5 m-0">{{ car.model }}</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-5 p-0 ps-lg-4">
+                <div class="row m-0">
+                    <div class="col-12 px-4">
+                        <div class="d-flex align-items-end mt-4 mb-2">
+                            <p class="h4 m-0"><span class="pe-1">{{ car.brand }}</span><span class="pe-1">{{ car.model }}</span></p>
+                            <P class="ps-3 text-muted">{{ car.year }} - {{ car.transmission }}</P>
+                        </div>
+                        <div class="d-flex justify-content-between mb-2">
+                            <p class="text-muted">Precio</p>
+                            <p class="fs-14 fw-bold"><span class="fas fa-dollar-sign pe-1"></span>{{ car.price | number }}</p>
+                        </div>
+                        <div class="d-flex justify-content-between mb-2">
+                            <p class="text-muted">Descripción</p>
+                            <p class="fs-14">{{ car.description }}</p>
+                        </div>
+                    </div>
+                    <div class="col-12 px-0">
+                        <div class="row bg-light m-0">
+                            <div class="col-12 px-4 my-4">
+                                <p class="fw-bold">Detalles del carro</p>
+                            </div>
+                        </div>
+                        <div class="row m-0">
+                            <div class="col-12 mb-4 p-0">
+                                <div class="btn btn-primary">Comprar <span class="fas fa-arrow-right ps-2"></span></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </div>

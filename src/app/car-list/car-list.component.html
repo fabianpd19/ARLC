@@ -3,6 +3,6 @@
 <div *ngFor="let car of cars">
     <h3>{{ car.brand }} {{ car.model }} ({{ car.year }})</h3>
     <p>Precio: ${{ car.price }}</p>
-    <img [src]="car.imageUrl" alt="{{ car.model }}" width="150">
+    <img [src]="car.imageurl" alt="{{ car.model }}" width="150">
     <button (click)="deleteCar(car.id)">Eliminar</button>
 </div>
