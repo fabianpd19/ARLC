@@ -26,4 +26,9 @@ export class CarService {
   deleteCar(id: number): Observable<void> {
     return this.http.delete<void>(`${this.apiUrl}/${id}`);
   }
+
+  getCarById(id: number): Observable<Car> {
+    return this.http.get<Car>(`${this.apiUrl}/${id}`);
+  }
+  
 }

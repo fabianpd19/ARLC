@@ -33,6 +33,21 @@ app.get("/cars", async (req, res) => {
   }
 });
 
+app.get("/cars/:id", async (req, res) => {
+  const { id } = req.params;
+  try {
+    const result = await pool.query("SELECT * FROM cars WHERE id = $1", [id]);
+    if (result.rows.length > 0) {
+      res.json(result.rows[0]); // Devuelve el carro con el ID especificado
+    } else {
+      res.status(404).send("Carro no encontrado");
+    }
+  } catch (error) {
+    console.error(error);
+    res.status(500).send("Error en el servidor");
+  }
+});
+
 app.listen(port, () => {
   console.log(`Servidor corriendo en http://localhost:${port}`);
 });

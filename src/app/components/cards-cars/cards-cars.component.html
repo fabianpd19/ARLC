@@ -39,7 +39,8 @@
                 </div>
                 <div class="d-flex justify-content-between align-items-center mt-3">
                     <span class="text fs-5"><strong>${{ car.price | number }}</strong></span>
-                    <button class="btn text-primary fw-normal">Ver detalles <mat-icon>call_received</mat-icon></button>
+                    <button class="btn text-primary fw-normal" (click)="verDetalle(car.id)">Ver detalles
+                        <mat-icon>call_received</mat-icon></button>
                 </div>
             </div>
         </div>

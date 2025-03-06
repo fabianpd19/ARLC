@@ -1,0 +1,21 @@
+<div *ngIf="car">
+    <div class="car-detail">
+        <h1>{{ car.brand }} - {{ car.model }}</h1>
+        <img [src]="car.imageUrl" alt="{{ car.brand }} {{ car.model }}" class="car-image">
+
+        <div class="car-info">
+            <p><strong>Marca:</strong> {{ car.brand }}</p>
+            <p><strong>Modelo:</strong> {{ car.model }}</p>
+            <p><strong>Año:</strong> {{ car.year }}</p>
+            <p><strong>Precio:</strong> ${{ car.price | number }}</p>
+            <p><strong>Kilometraje:</strong> {{ car.kilometers }} km</p>
+            <p><strong>Tipo de combustible:</strong> {{ car.fueltype }}</p>
+            <p><strong>Transmisión:</strong> {{ car.transmission }}</p>
+            <p><strong>Descripción:</strong> {{ car.description }}</p>
+        </div>
+    </div>
+</div>
+
+<div *ngIf="!car">
+    <p>Cargando detalles del carro...</p>
+</div>
