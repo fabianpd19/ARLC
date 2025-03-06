@@ -7,13 +7,19 @@
     <div class="example-button-container">
         <button mat-button>Catálogo</button>
     </div>
-    <div class="example-button-container">
-        <button mat-button>
+    <div *ngIf="!userEmail" class="example-button-container">
+        <button mat-button (click)="openAuthDialog('login')">
             <mat-icon class="material-symbols-outlined">person</mat-icon>
             Iniciar Sesión
         </button>
     </div>
-    <div class="example-button-container">
-        <button mat-stroked-button>Registrar</button>
+    <div *ngIf="!userEmail" class="example-button-container">
+        <button mat-stroked-button (click)="openAuthDialog('register')">Registrar</button>
     </div>
+    <div *ngIf="userEmail">
+            <button mat-stroked-button (click)="logout()">Cerrar sesión</button>
+        <span class="fw-bolder" style="margin-left: 10px; width: 100px; text-align: center;">Bienvenido, {{ userEmail }}</span>
+        
+      </div>
+      
 </mat-toolbar>
