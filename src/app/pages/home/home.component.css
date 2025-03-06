@@ -25,3 +25,742 @@
     padding: 20px;
     border-radius: 10px;
 }
+
+.background_113-1866 {
+    position: relative;
+    box-sizing: border-box;
+    border-radius: 16px;
+    background: #ffe7e7;
+    width: 685px;
+    height: 394px;
+  }
+  .background_113-1866,
+  .background_113-1883 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 15px;
+  }
+  
+  /* Parent container for cards */
+  .cards-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+  }
+
+  .heading-2_113-1867 {
+    top: 80px;
+    left: 80px;
+    position: absolute;
+    display: flex;
+    box-sizing: border-box;
+    width: 525px;
+    height: 90px;
+  }
+  .text--est-s-buscando-un-coche-_113-1868 {
+    top: 0px;
+    left: 0px;
+    position: absolute;
+    display: flex;
+    color: #050b20;
+    font-size: 30px;
+    font-family: DM Sans;
+    line-height: 45px;
+    letter-spacing: 0%;
+    text-decoration: none;
+    font-weight: 700;
+    text-align: left;
+    width: 409px;
+    height: 90px;
+  }
+  
+  .text-nos-comprometemos-a-brindarles-a-nuestros-clientes-un-servicio-excepcional-_113-1869 {
+    top: 184px;
+    left: 80px;
+    position: absolute;
+    display: flex;
+    color: #050b20;
+    font-size: 15px;
+    font-family: DM Sans;
+    line-height: 27.75px;
+    letter-spacing: 0%;
+    text-decoration: none;
+    font-weight: 400;
+    text-align: left;
+    width: 355px;
+    height: 56px;
+  }
+  
+  .link_113-1870 {
+    top: 254px;
+    left: 80px;
+    position: absolute;
+    display: flex;
+    box-sizing: border-box;
+    border-radius: 12px;
+    border-color: #405ff2;
+    border-style: solid;
+    border-width: 1px;
+    background: #405ff2;
+    width: 159px;
+    height: 60px;
+  }
+  .text-empezar_113-1871 {
+    top: 19px;
+    left: 26px;
+    position: absolute;
+    display: flex;
+    color: #ffffff;
+    font-size: 15px;
+    font-family: DM Sans;
+    line-height: 15px;
+    letter-spacing: 0%;
+    text-decoration: none;
+    font-weight: 500;
+    text-align: center;
+    width: 83px;
+    height: 15px;
+  }
+  
+  .svg_113-1872 {
+    top: 20px;
+    left: 119px;
+    position: absolute;
+    display: flex;
+    box-sizing: border-box;
+    display: flex;
+  }
+  .vector_113-1873 {
+    top: 0px;
+    left: 0px;
+    position: absolute;
+    display: flex;
+    display: flex;
+  }
+  
+  .electric-car-svg_113-1874 {
+    top: 234px;
+    left: 495px;
+    position: absolute;
+    display: flex;
+    box-sizing: border-box;
+    overflow: hidden;
+    width: 110px;
+    height: 110px;
+  }
+  .electric-car-svg-fill_113-1875 {
+    top: 0px;
+    left: 0px;
+    position: absolute;
+    display: flex;
+    box-sizing: border-box;
+    overflow: hidden;
+    width: 110px;
+    height: 110px;
+  }
+  .electric-car-svg_113-1876 {
+    top: 0px;
+    left: 0px;
+    position: absolute;
+    display: flex;
+    box-sizing: border-box;
+    overflow: hidden;
+    display: flex;
+  }
+  .vector_113-1877 {
+    top: 15px;
+    left: 4px;
+    position: absolute;
+    display: flex;
+    display: flex;
+  }
+  
+  .vector_113-1878 {
+    top: 15px;
+    left: 4px;
+    position: absolute;
+    display: flex;
+    display: flex;
+  }
+  
+  .vector_113-1879 {
+    top: 78px;
+    left: 29px;
+    position: absolute;
+    display: flex;
+    display: flex;
+  }
+  
+  .vector_113-1880 {
+    top: 87px;
+    left: 50px;
+    position: absolute;
+    display: flex;
+    display: flex;
+  }
+  
+  .vector_113-1881 {
+    top: 78px;
+    left: 63px;
+    position: absolute;
+    display: flex;
+    display: flex;
+  }
+  
+  .vector_113-1882 {
+    top: 30px;
+    left: 46px;
+    position: absolute;
+    display: flex;
+    display: flex;
+  }
+  
+
+  .background_113-1883 {
+    position: relative;
+    box-sizing: border-box;
+    border-radius: 16px;
+    background: #e9eaff;
+    width: 685px;
+    height: 394px;
+  }
+  .heading-2_113-1884 {
+    top: 80px;
+    left: 80px;
+    position: absolute;
+    display: flex;
+    box-sizing: border-box;
+    width: 525px;
+    height: 90px;
+  }
+  .text--quieres-vender-un-coche-_113-1885 {
+    top: 0px;
+    left: 0px;
+    position: absolute;
+    display: flex;
+    color: #050b20;
+    font-size: 30px;
+    font-family: DM Sans;
+    line-height: 45px;
+    letter-spacing: 0%;
+    text-decoration: none;
+    font-weight: 700;
+    text-align: left;
+    width: 327px;
+    height: 69px;
+  }
+  
+  .text-nos-comprometemos-a-brindarles-a-nuestros-clientes-un-servicio-excepcional--contactanos--0979587732_113-1886 {
+    top: 184px;
+    left: 80px;
+    position: absolute;
+    display: flex;
+    color: #050b20;
+    font-size: 15px;
+    font-family: DM Sans;
+    line-height: 27.75px;
+    letter-spacing: 0%;
+    text-decoration: none;
+    font-weight: 400;
+    text-align: left;
+    width: 355px;
+    height: 56px;
+  }
+  
+  .electric-car2-svg_113-1891 {
+    top: 234px;
+    left: 495px;
+    position: absolute;
+    display: flex;
+    box-sizing: border-box;
+    overflow: hidden;
+    width: 110px;
+    height: 110px;
+  }
+  .electric-car2-svg-fill_113-1892 {
+    top: 0px;
+    left: 0px;
+    position: absolute;
+    display: flex;
+    box-sizing: border-box;
+    overflow: hidden;
+    width: 110px;
+    height: 110px;
+  }
+  .electric-car2-svg_113-1893 {
+    top: 0px;
+    left: 0px;
+    position: absolute;
+    display: flex;
+    box-sizing: border-box;
+    overflow: hidden;
+    display: flex;
+  }
+  .vector_113-1894 {
+    top: 4px;
+    left: 4px;
+    position: absolute;
+    display: flex;
+    display: flex;
+  }
+  
+  .vector_113-1895 {
+    top: 4px;
+    left: 4px;
+    position: absolute;
+    display: flex;
+    display: flex;
+  }
+  
+  .vector_113-1896 {
+    top: 58px;
+    left: 34px;
+    position: absolute;
+    display: flex;
+    display: flex;
+  }
+  
+  .vector_113-1897 {
+    top: 20px;
+    left: 19px;
+    position: absolute;
+    display: flex;
+    display: flex;
+  }
+  
+
+  .group-86_456-213 {
+    display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  padding: 20px;
+  align-items: center;
+  justify-content: center;
+  }
+  .heading-2_113-1898 {
+    position: relative;
+    box-sizing: border-box;
+    width: 685px;
+    height: 96px;
+  }
+  .text-somos-grandes-en-lo-que-a-usted-le-importa_113-1899 {
+    top: 0px;
+    left: 0px;
+    position: absolute;
+    display: flex;
+    color: #050b20;
+    font-size: 40px;
+    font-family: DM Sans;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-decoration: none;
+    font-weight: 700;
+    text-align: left;
+    width: 352px;
+    height: 96px;
+  }
+  
+  .f1-svg_113-1900 {
+    position: relative;
+    box-sizing: border-box;
+    overflow: hidden;
+    width: 60px;
+    height: 60px;
+  }
+  .f1-svg-fill_113-1901 {
+    top: 0px;
+    left: 0px;
+    position: absolute;
+    display: flex;
+    box-sizing: border-box;
+    overflow: hidden;
+    width: 60px;
+    height: 60px;
+  }
+  .f1-svg_113-1902 {
+    top: 0px;
+    left: 0px;
+    position: absolute;
+    display: flex;
+    box-sizing: border-box;
+    overflow: hidden;
+    width: 60px;
+    height: 60px;
+  }
+  .clip-path-group_113-1903 {
+    top: -1396px;
+    left: -262px;
+    position: absolute;
+    display: flex;
+    width: 1920px;
+    height: 5937px;
+  }
+  .a_113-1904 {
+    width: 1920px;
+    height: 5937px;
+  }
+  .vector_113-1905 {
+    display: flex;
+  }
+  
+  .group_113-1906 {
+    width: 1920px;
+    height: 5937px;
+  }
+  .vector_113-1907 {
+    display: flex;
+  }
+  
+  .clip-path-group_113-1908 {
+    display: flex;
+  }
+  .b_113-1909 {
+    width: 51px;
+    height: 60px;
+  }
+  .vector_113-1910 {
+    display: flex;
+  }
+  
+  .group_113-1911 {
+    width: 38px;
+    height: 55px;
+  }
+  .vector_113-1912 {
+    display: flex;
+  }
+  
+  .vector_113-1913 {
+    display: flex;
+  }
+  
+  .vector_113-1914 {
+    display: flex;
+  }
+  
+  .vector_113-1915 {
+    display: flex;
+  }
+  
+  .vector_113-1916 {
+    display: flex;
+  }
+  
+  .text-heading-3---special-financing-offers_113-1917 {
+    color: #050b20;
+    font-size: 20px;
+    font-family: DM Sans;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-decoration: none;
+    font-weight: 500;
+    text-align: left;
+    width: 357px;
+    height: 31px;
+  }
+  
+  .text-nuestro-departamento-de-finanzas-puede-encontrar-soluciones-financieras-_113-1918 {
+    color: #050b20;
+    font-size: 15px;
+    font-family: DM Sans;
+    line-height: 27.75px;
+    letter-spacing: 0%;
+    text-decoration: none;
+    font-weight: 400;
+    text-align: left;
+    width: 311px;
+    height: 56px;
+  }
+  
+  .f2-svg_113-1919 {
+    position: relative;
+    box-sizing: border-box;
+    overflow: hidden;
+    width: 60px;
+    height: 60px;
+  }
+  .f2-svg-fill_113-1920 {
+    top: 0px;
+    left: 0px;
+    position: absolute;
+    display: flex;
+    box-sizing: border-box;
+    overflow: hidden;
+    width: 60px;
+    height: 60px;
+  }
+  .f2-svg_113-1921 {
+    top: 0px;
+    left: 0px;
+    position: absolute;
+    display: flex;
+    box-sizing: border-box;
+    overflow: hidden;
+    display: flex;
+  }
+  .vector_113-1922 {
+    top: 2px;
+    left: 30px;
+    position: absolute;
+    display: flex;
+    display: flex;
+  }
+  
+  .vector_113-1923 {
+    top: 2px;
+    left: 44px;
+    position: absolute;
+    display: flex;
+    display: flex;
+  }
+  
+  .vector_113-1924 {
+    top: 15px;
+    left: 7px;
+    position: absolute;
+    display: flex;
+    display: flex;
+  }
+  
+  .vector_113-1925 {
+    top: 15px;
+    left: 7px;
+    position: absolute;
+    display: flex;
+    display: flex;
+  }
+  
+  .vector_113-1926 {
+    top: 2px;
+    left: 11px;
+    position: absolute;
+    display: flex;
+    display: flex;
+  }
+  
+  .vector_113-1927 {
+    top: 30px;
+    left: 17px;
+    position: absolute;
+    display: flex;
+    display: flex;
+  }
+  
+  .vector_113-1928 {
+    top: 25px;
+    left: 25px;
+    position: absolute;
+    display: flex;
+    display: flex;
+  }
+  
+  .vector_113-1929 {
+    top: 30px;
+    left: 30px;
+    position: absolute;
+    display: flex;
+    display: flex;
+  }
+  
+  .text-heading-3---trusted-car-dealership_113-1930 {
+    color: #050b20;
+    font-size: 20px;
+    font-family: DM Sans;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-decoration: none;
+    font-weight: 500;
+    text-align: left;
+    width: 425px;
+    height: 24px;
+  }
+  
+  .text-tu-concesionario-de-coches-de-confianza--con-calidad-y-garant-a-_113-1931 {
+    color: #050b20;
+    font-size: 15px;
+    font-family: DM Sans;
+    line-height: 27.75px;
+    letter-spacing: 0%;
+    text-decoration: none;
+    font-weight: 400;
+    text-align: left;
+    width: 311px;
+    height: 56px;
+  }
+  
+  .f3-svg_113-1932 {
+    position: relative;
+    box-sizing: border-box;
+    overflow: hidden;
+    width: 60px;
+    height: 60px;
+  }
+  .f3-svg-fill_113-1933 {
+    top: 0px;
+    left: 0px;
+    position: absolute;
+    display: flex;
+    box-sizing: border-box;
+    overflow: hidden;
+    width: 60px;
+    height: 60px;
+  }
+  .f3-svg_113-1934 {
+    top: 0px;
+    left: 0px;
+    position: absolute;
+    display: flex;
+    box-sizing: border-box;
+    overflow: hidden;
+    display: flex;
+  }
+  .clip-path-group_113-1935 {
+    top: 0px;
+    left: 0px;
+    position: absolute;
+    display: flex;
+    width: 60px;
+    height: 60px;
+  }
+  .a_113-1936 {
+    width: 60px;
+    height: 60px;
+  }
+  .vector_113-1937 {
+    display: flex;
+  }
+  
+  .group_113-1938 {
+    width: 55px;
+    height: 55px;
+  }
+  .vector_113-1939 {
+    display: flex;
+  }
+  
+  .vector_113-1940 {
+    display: flex;
+  }
+  
+  .vector_113-1941 {
+    display: flex;
+  }
+  
+  .vector_113-1942 {
+    display: flex;
+  }
+  
+  .vector_113-1943 {
+    display: flex;
+  }
+  
+  .vector_113-1944 {
+    display: flex;
+  }
+  
+  .text-heading-3---transparent-pricing_113-1945 {
+    color: #050b20;
+    font-size: 20px;
+    font-family: DM Sans;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-decoration: none;
+    font-weight: 500;
+    text-align: left;
+    width: 284px;
+    height: 24px;
+  }
+  
+  .text-precios-transparentes--sin-sorpresas-ni-costes-ocultos-_113-1946 {
+    color: #050b20;
+    font-size: 15px;
+    font-family: DM Sans;
+    line-height: 27.75px;
+    letter-spacing: 0%;
+    text-decoration: none;
+    font-weight: 400;
+    text-align: left;
+    width: 311px;
+    height: 56px;
+  }
+  
+  .f4-svg_113-1947 {
+    position: relative;
+    box-sizing: border-box;
+    overflow: hidden;
+    width: 60px;
+    height: 60px;
+  }
+  .f4-svg-fill_113-1948 {
+    top: 0px;
+    left: 0px;
+    position: absolute;
+    display: flex;
+    box-sizing: border-box;
+    overflow: hidden;
+    width: 60px;
+    height: 60px;
+  }
+  .f4-svg_113-1949 {
+    top: 0px;
+    left: 0px;
+    position: absolute;
+    display: flex;
+    box-sizing: border-box;
+    overflow: hidden;
+    display: flex;
+  }
+  .vector_113-1950 {
+    top: 4px;
+    left: 2px;
+    position: absolute;
+    display: flex;
+    display: flex;
+  }
+  
+  .vector_113-1951 {
+    top: 4px;
+    left: 2px;
+    position: absolute;
+    display: flex;
+    display: flex;
+  }
+  
+  .vector_113-1952 {
+    top: 34px;
+    left: 36px;
+    position: absolute;
+    display: flex;
+    display: flex;
+  }
+  
+  .text-heading-3---expert-car-service_113-1953 {
+    color: #050b20;
+    font-size: 20px;
+    font-family: DM Sans;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-decoration: none;
+    font-weight: 500;
+    text-align: left;
+    width: 297px;
+    height: 31px;
+  }
+  
+  .text-servicio-de-coche-experto--r-pido-y-de-confianza_113-1954 {
+    color: #050b20;
+    font-size: 15px;
+    font-family: DM Sans;
+    line-height: 27.75px;
+    letter-spacing: 0%;
+    text-decoration: none;
+    font-weight: 400;
+    text-align: left;
+    width: 311px;
+    height: 56px;
+  }
+  

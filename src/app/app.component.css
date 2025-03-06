@@ -1,0 +1,338 @@
+
+  .desktop-2_135-321 {
+    position:relative;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: #121420;
+    height: 319px;
+    z-index: 100;
+    display: flex; /* Add this */
+    justify-content: center; /* Center content */
+    align-items: center; 
+  }
+
+  .background_135-322 {
+    top: 0px;
+    left: -13px;
+    position: absolute;
+    display: flex;
+    display: flex;
+  }
+  
+  .fact-printer-sit-_135-323 {
+    top: 265px;
+    left: 0px;
+    position: absolute;
+    display: flex;
+    width: 1440px;
+    height: 54px;
+  }
+  .rectangle-18_135-324 {
+    display: flex;
+  }
+  
+  .text-fact-printer-sit-_135-325 {
+    color: #ffffff;
+    font-size: 20px;
+    font-family: Inter;
+    letter-spacing: 0%;
+    text-decoration: none;
+    font-weight: 500;
+    text-align: left;
+    text-wrap: nowrap;
+    width: 148px;
+    height: 24px;
+  }
+  
+  .essential-of-keep-popular_135-326 {
+    top: 95px;
+    left: 1299px;
+    position: absolute;
+    display: flex;
+    width: 425px;
+    height: 83px;
+  }
+  .send-us-btn_135-327 {
+    width: 150px;
+    height: 49px;
+  }
+  .background_135-328 {
+    display: flex;
+  }
+  
+  .text-sendus_135-329 {
+    color: #000000;
+    font-size: 17.578475952148438px;
+    font-family: Inter;
+    letter-spacing: 0%;
+    text-decoration: none;
+    font-weight: 500;
+    text-align: left;
+    text-wrap: wrap;
+    width: 76px;
+    height: 21px;
+  }
+  
+  .email-field_135-330 {
+    width: 252px;
+    height: 47px;
+  }
+  .background_135-331 {
+    display: flex;
+  }
+  
+  .text-enter-your-email_135-332 {
+    color: #767676;
+    font-size: 17.578475952148438px;
+    font-family: Inter;
+    letter-spacing: 0%;
+    text-decoration: none;
+    font-weight: 400;
+    text-align: left;
+    text-wrap: nowrap;
+    width: 135px;
+    height: 21px;
+  }
+  
+  .text-essential-of-keep-popular_135-333 {
+    color: #ffffff;
+    font-size: 19.336322784423828px;
+    font-family: Inter;
+    letter-spacing: 0%;
+    text-decoration: none;
+    font-weight: 600;
+    text-align: left;
+    text-wrap: nowrap;
+    width: 238px;
+    height: 23px;
+  }
+  
+  .footer-menus_135-334 {
+    top: 133px;
+    left: 526px;
+    position: absolute;
+    display: flex;
+    width: 678px;
+    height: 19px;
+  }
+  .text-dummy_135-335 {
+    color: #ffffff;
+    font-size: 16px;
+    font-family: Inter;
+    letter-spacing: 0%;
+    text-decoration: none;
+    font-weight: 600;
+    text-align: left;
+    text-wrap: nowrap;
+    width: 59px;
+    height: 19px;
+  }
+  
+  .text-text_135-336 {
+    color: #ffffff;
+    font-size: 16px;
+    font-family: Inter;
+    letter-spacing: 0%;
+    text-decoration: none;
+    font-weight: 600;
+    text-align: left;
+    text-wrap: nowrap;
+    width: 34px;
+    height: 19px;
+  }
+  
+  .text-versions-evolved_135-337 {
+    color: #ffffff;
+    font-size: 16px;
+    font-family: Inter;
+    letter-spacing: 0%;
+    text-decoration: none;
+    font-weight: 600;
+    text-align: left;
+    text-wrap: nowrap;
+    width: 133px;
+    height: 19px;
+  }
+  
+  .text-content-of_135-338 {
+    color: #ffffff;
+    font-size: 16px;
+    font-family: Inter;
+    letter-spacing: 0%;
+    text-decoration: none;
+    font-weight: 600;
+    text-align: left;
+    text-wrap: nowrap;
+    width: 86px;
+    height: 19px;
+  }
+  
+  .text-lorem-is_135-339 {
+    color: #ffffff;
+    font-size: 16px;
+    font-family: Inter;
+    letter-spacing: 0%;
+    text-decoration: none;
+    font-weight: 600;
+    text-align: left;
+    text-wrap: nowrap;
+    width: 66px;
+    height: 19px;
+  }
+  
+  .linkedin-icon_135-340 {
+    top: 145px;
+    left: 284px;
+    position: absolute;
+    display: flex;
+    display: flex;
+  }
+  
+  .youtube-icon_135-341 {
+    top: 148px;
+    left: 203px;
+    position: absolute;
+    display: flex;
+    display: flex;
+  }
+  
+  .twitter-icon_135-342 {
+    top: 147px;
+    left: 120px;
+    position: absolute;
+    display: flex;
+    display: flex;
+  }
+  
+  .facebook-icon_135-343 {
+    top: 144px;
+    left: 54px;
+    position: absolute;
+    display: flex;
+    display: flex;
+  }
+  
+  .desktop-2_138-215 {
+    top: -8px;
+    left: 1px;
+    position: absolute;
+    display: flex;
+    box-sizing: border-box;
+    overflow: hidden;
+    background: #f4f4f6;
+    width: 1920px;
+    height: 319px;
+  }
+  .background_138-216 {
+    top: 0px;
+    left: -13px;
+    position: absolute;
+    display: flex;
+    display: flex;
+  }
+  
+  .fact-printer-sit-_138-217 {
+    top: 265px;
+    left: 0px;
+    position: absolute;
+    display: flex;
+    width: 1440px;
+    height: 54px;
+  }
+  .rectangle-18_138-218 {
+    display: flex;
+  }
+  
+  .text-integrativa-u2---proyecto_138-219 {
+    color: #ffffff;
+    font-size: 20px;
+    font-family: Inter;
+    letter-spacing: 0%;
+    text-decoration: none;
+    font-weight: 500;
+    text-align: left;
+    text-wrap: nowrap;
+    width: 240px;
+    height: 24px;
+  }
+  
+  .footer-menus_138-220 {
+    top: 133px;
+    left: 736px;
+    position: absolute;
+    display: flex;
+    width: 407px;
+    height: 19px;
+  }
+  .text-iniciar-sesi-n_138-221 {
+    color: #ffffff;
+    font-size: 16px;
+    font-family: Inter;
+    letter-spacing: 0%;
+    text-decoration: none;
+    font-weight: 600;
+    text-align: left;
+    text-wrap: wrap;
+    width: 104px;
+    height: 19px;
+  }
+  
+  .text-cat-logo_138-222 {
+    color: #ffffff;
+    font-size: 16px;
+    font-family: Inter;
+    letter-spacing: 0%;
+    text-decoration: none;
+    font-weight: 600;
+    text-align: left;
+    text-wrap: wrap;
+    width: 70px;
+    height: 19px;
+  }
+  
+  .text-inicio_138-223 {
+    color: #ffffff;
+    font-size: 16px;
+    font-family: Inter;
+    letter-spacing: 0%;
+    text-decoration: none;
+    font-weight: 600;
+    text-align: left;
+    text-wrap: wrap;
+    width: 42px;
+    height: 19px;
+  }
+  
+  .linkedin-icon_138-224 {
+    top: 145px;
+    left: 284px;
+    position: absolute;
+    display: flex;
+    display: flex;
+  }
+  
+  .youtube-icon_138-225 {
+    top: 148px;
+    left: 203px;
+    position: absolute;
+    display: flex;
+    display: flex;
+  }
+  
+  .twitter-icon_138-226 {
+    top: 147px;
+    left: 120px;
+    position: absolute;
+    display: flex;
+    display: flex;
+  }
+  
+  .facebook-icon_138-227 {
+    top: 144px;
+    left: 54px;
+    position: absolute;
+    display: flex;
+    display: flex;
+  }
+  

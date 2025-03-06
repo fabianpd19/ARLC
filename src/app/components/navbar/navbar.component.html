@@ -8,12 +8,12 @@
         <button mat-button>Catálogo</button>
     </div>
     <div class="example-button-container">
-        <button mat-button>
+        <button mat-button (click)="openAuthDialog('login')">
             <mat-icon class="material-symbols-outlined">person</mat-icon>
             Iniciar Sesión
         </button>
     </div>
     <div class="example-button-container">
-        <button mat-stroked-button>Registrar</button>
+        <button mat-stroked-button (click)="openAuthDialog('register')">Registrar</button>
     </div>
 </mat-toolbar>

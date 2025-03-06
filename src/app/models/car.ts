@@ -5,6 +5,7 @@ export interface Car {
   year: number;
   price: number;
   imageurl: string;
+  imageUrl: string;
   description: string;
   kilometers: number;
   fueltype: 'Gasolina' | 'Diésel';
